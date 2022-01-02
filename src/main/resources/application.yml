@@ -10,3 +10,4 @@ spring:
         git:
           uri: https://github.com/eralmas7/cloud-config-data
           default-label: master
+EUREKA_PORT_8761_TCP_ADDR: ${vcap.services.eureka-service.credentials.uri:localhost}
