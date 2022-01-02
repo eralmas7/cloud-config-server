@@ -10,6 +10,3 @@ spring:
         git:
           uri: https://github.com/eralmas7/cloud-config-data
           default-label: master
-logging:
-  level:
-    org.springframework: DEBUG
